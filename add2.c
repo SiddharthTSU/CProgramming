@@ -8,10 +8,10 @@
 int main(void)
 {
   float a, b, sum;
-  printf("Input two floats: ");
+  printf("Input two floats: \n ");
   scanf("%f%f", &a, &b);
   printf("a = %f, b = %f\n", a, b);
   sum = a + b;
   printf("sum = %f\n\n", sum);
   return 0;
-}
+}                  /*program ends*/
