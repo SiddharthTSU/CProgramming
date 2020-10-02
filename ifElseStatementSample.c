@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>    /* this is an example of if-else statements*/
 
 int main(void) {
    int userNum1;
@@ -11,13 +11,13 @@ int main(void) {
    printf("Please enter another integer: \n");
    scanf("%d", &userNum2);
 
-   if(userNum1 < 0){
+   if(userNum1 <= 0){
       
    printf("userNum1 is negative.\n");
    
    }
    
-   if (userNum2 > 9){
+   if (userNum2 >= 9){
       userNum2 = 5;
    }
    
