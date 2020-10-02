@@ -14,7 +14,7 @@ int main(void)
 double interval;
 int i;
 
-printf("Type your interval as a double: ");
+printf("Type your interval as a double: \n");
 scanf("%lf", &interval);
 for(i = 0; i <30; i++)
 {
